@@ -7,3 +7,5 @@
 2113210831 กษิดิศ มณเฑียร
 2113211490 ยงค์จูน ชอย
 2113210492 วิชฌน์ เจียมศิริ
+Gameplay : https://youtu.be/DVG0Vz_seR0
+Present : https://youtu.be/F_TwX5eGKnU
