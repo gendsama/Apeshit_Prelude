@@ -1,0 +1,314 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1711313733036097, "dur":118451, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313733154558, "dur":151, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313733154767, "dur":645, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313733155450, "dur":7458, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313733162910, "dur":14613579, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313747776491, "dur":197, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313747776689, "dur":142, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313747777192, "dur":19317, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1711313733155481, "dur":7439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711313733162923, "dur":5834, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711313736146819, "dur":433541, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1711313736580367, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1711313736580724, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf60b5a31-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1711313736580365, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1711313736626088, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711313736640636, "dur":138061, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1711313736783510, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1711313736783509, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1711313736783624, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1711313736784636, "dur":10991851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711313733155519, "dur":7418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711313733162940, "dur":1054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711313733163995, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711313733168793, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1711313733168776, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1711313735335416, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1711313735337086, "dur":1079997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1711313736525028, "dur":11251473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711313733155564, "dur":7388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711313733162956, "dur":1243, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711313733164200, "dur":4623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711313733168824, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1711313734131762, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1711313734133399, "dur":1403018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1711313735536553, "dur":880525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1711313736525024, "dur":11251485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711313733155514, "dur":7413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711313733162934, "dur":989, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711313733163923, "dur":4875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711313733168811, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711313733168799, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711313733737757, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711313733739565, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733742125, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733744559, "dur":24248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733769649, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733782416, "dur":7675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733790221, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733792405, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733808969, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733811708, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733813376, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733817033, "dur":14480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733832062, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313733836097, "dur":186958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711313734023110, "dur":5876, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1711313734023108, "dur":5880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1711313734029007, "dur":593825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1711313735334731, "dur":290508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1711313735625267, "dur":12151217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711313733155555, "dur":7389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711313733162947, "dur":1148, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711313733164096, "dur":4698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711313733168809, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1711313733168797, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1711313733808972, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1711313733810211, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711313733813002, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711313733816353, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711313733831479, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711313733834430, "dur":154398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711313733988955, "dur":220029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1711313734503011, "dur":1112513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1711313735615558, "dur":12160933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711313733155595, "dur":7364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711313733162964, "dur":1297, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711313733164261, "dur":4520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711313733168795, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1711313733168782, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1711313733726132, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1711313733727862, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733737728, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733742476, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733744512, "dur":24303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733769658, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733782410, "dur":7806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733790299, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733792480, "dur":2486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733795045, "dur":13952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733809094, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733811692, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733813378, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733816952, "dur":14552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733831660, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733835216, "dur":153660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711313733988968, "dur":1547444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1711313735536563, "dur":610146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1711313736363611, "dur":11412910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711313733155625, "dur":7341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711313733162970, "dur":1124, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711313733164094, "dur":4692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711313733168789, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1711313733834024, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1711313733837064, "dur":151795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":7, "ts":1711313734022921, "dur":876013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1711313735335092, "dur":642735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1711313736363578, "dur":11412956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711313733155662, "dur":7311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711313733162977, "dur":1120, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711313733164097, "dur":4699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711313733168797, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1711313733746145, "dur":22676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1711313733768959, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733771998, "dur":10424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733782525, "dur":7571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733790224, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733792443, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733795042, "dur":13940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733809109, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733811707, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733814334, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733818023, "dur":13512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733831650, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313733836045, "dur":152850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711313734022914, "dur":1099739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1711313735335036, "dur":822491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1711313736363693, "dur":11412822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711313733155697, "dur":7284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711313733162986, "dur":1161, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711313733164147, "dur":4629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711313733168798, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1711313733168787, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1711313733988855, "dur":19232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1711313734008186, "dur":1629234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1711313735637458, "dur":12139024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711313733155741, "dur":7249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711313733162994, "dur":1291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711313733164285, "dur":4479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711313733168785, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1711313733168769, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1711313733261762, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1711313733264800, "dur":12679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733277618, "dur":451408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733737724, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733742061, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733744497, "dur":24301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733769311, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733782405, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733784819, "dur":5426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733792071, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733795036, "dur":13936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733809112, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733812869, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733816317, "dur":15162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733832051, "dur":4262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313733836427, "dur":152461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711313734008088, "dur":1263696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1711313735335100, "dur":547692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1711313735882818, "dur":11893722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711313733155771, "dur":7227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711313733163003, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711313733163539, "dur":5231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711313733168771, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1711313733191425, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1711313733193949, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1711313733194652, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1711313733195892, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1711313733199298, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1711313733199396, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1711313733200547, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1711313733231292, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1711313733232604, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1711313733233216, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1711313733234403, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733234400, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733234650, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733237174, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1711313733237173, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/ApeshitPrelude.exe" }}
+,{ "pid":12345, "tid":11, "ts":1711313733237442, "dur":12041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude.exe" }}
+,{ "pid":12345, "tid":11, "ts":1711313733250681, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733254375, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733256324, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733259412, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733260514, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733262496, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733277475, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733278795, "dur":448546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733728985, "dur":10116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733740518, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733744488, "dur":24293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733769299, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733782397, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733790090, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733792320, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733795055, "dur":13948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733809125, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733812879, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733816061, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733818820, "dur":12766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733831672, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733835153, "dur":153716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711313733988972, "dur":2536124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1711313736525445, "dur":11251049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711313733155812, "dur":7200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711313733163012, "dur":5760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711313733168775, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1711313733232513, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1711313733234858, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733234856, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733235047, "dur":10332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733246298, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1711313733250666, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733254726, "dur":4587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733259419, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733260581, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733262502, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733264862, "dur":12622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733277623, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733278663, "dur":449051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733728987, "dur":10502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733740539, "dur":3469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733744117, "dur":24658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733769291, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733772023, "dur":10406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733782606, "dur":7630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733790334, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733794960, "dur":14008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733809694, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733812956, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733816182, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733831509, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733834617, "dur":154215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711313733988949, "dur":345531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1711313734503021, "dur":1033402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1711313735536537, "dur":12239948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1711313733155838, "dur":7183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1711313733163021, "dur":5741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1711313733169025, "dur":17125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186153, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186258, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186431, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186651, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186869, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186926, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733186999, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733187131, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733187189, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733187426, "dur":3246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733190674, "dur":2574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733193250, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733193315, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Animation.Rigging.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733193424, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733193492, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733193708, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733193937, "dur":339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733194318, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733194517, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733194646, "dur":624, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733195271, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733195363, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733195454, "dur":390, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733195845, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll" }}
+,{ "pid":12345, "tid":13, "ts":1711313733196032, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Apeshit Prelude\\ApeshitPrelude\\Library\\PackageCache\\com.unity.burst@1.8.7\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":13, "ts":1711313733168769, "dur":27318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":13, "ts":1711313733199196, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1711313733740465, "dur":14031876, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":13, "ts":1711313747775314, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":14, "ts":1711313733155873, "dur":7155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1711313733163029, "dur":5731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1711313733168779, "dur":17239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1711313736525050, "dur":32583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1711313736557636, "dur":11218922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1711313733155901, "dur":7134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1711313733163036, "dur":5752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1711313733168790, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1711313733816774, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1711313733817961, "dur":13563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1711313733831664, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1711313733834393, "dur":4153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1711313733988860, "dur":1287265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":15, "ts":1711313735335111, "dur":630913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1711313736363575, "dur":11412952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1711313733155932, "dur":7111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1711313733163044, "dur":5734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1711313733168780, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1711313733249517, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1711313733250702, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733254367, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733256174, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733259408, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733260583, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733262498, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733264011, "dur":13463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733277614, "dur":450105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733728991, "dur":10504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733740543, "dur":3475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733744490, "dur":24299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733769303, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733772045, "dur":10390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733782552, "dur":7675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733790331, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733792811, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733795038, "dur":13950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733809139, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733812877, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733816206, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733831495, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733834383, "dur":4160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1711313733988855, "dur":1288737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1711313735335031, "dur":400862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Apeshit Prelude (Easy)/ApeshitPrelude_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1711313735735924, "dur":12040625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711313747815393, "dur":4710, "ph":"X", "name": "ProfilerWriteOutput" }
+,
